@@ -81,5 +81,5 @@ var_dump($area = $circle->area());
 ```
 $dependencies = getDependencies($parameters);
 return $reflectionClass->newInstanceArgs($dependencies);//从给出的参数创建一个新的类实例。
-
+```
 > 应该是递归获取该类创建的时候所需要的依赖，并通过newInstanceArgs方法生成依赖，以达到实例化类的目的。
