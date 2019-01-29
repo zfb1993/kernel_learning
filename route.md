@@ -144,3 +144,5 @@ public function handle($request, Closure $next)
 }
 ```
 8. 路由组
+```Route::group``` 路由组允许你在大量路由之间共享路由属性，例如中间件或命名空间
+9. 中间件
